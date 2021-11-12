@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding:0;
+	text-align: center; 
+	font-family: 'Roboto Condensed', sans-serif;
+	overflow-y:scroll;
+	width: 1500px;
+	
+}
+
+div {
+	margin: 0;
+	padding:0;
+}
+
+fieldset, img, img a {
+	margin: 0;
+	padding:0;
+	border:0;
+}
+
+#bilboquet-page {
+	position:relative;
+	clear:both;
+	width:1200px;
+	margin: 0 auto 0 auto;
+	text-align: left; 
+}
+
+#haut-bandeau {
+	height:105px;
+	margin:0;
+	padding:0;
+}
+
+#logo-entete {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100px;
+	height:105px;
+}
+
+#nom-entete {
+	position:absolute;
+	top:0px;
+	left:100px;
+	width:544px;
+	height:105px;
+}
+
+#wifi-logis-entete {
+	position:absolute;
+	top:0px;
+	left:646px;
+	width:450px;
+	text-align:right;
+	height:105px;
+}
+
+.bilboquet-haut-gauche {
+	padding-right:0px;
+	padding-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	color:#970000;
+	font-size:40px;
+	
+}
+
+.bilboquet-bloc-gauche {
+
+	padding-right:100px;
+	padding-left:0px;
+	padding-top:20px;
+	padding-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	float:left;
+	width:300px;
+	display:inline;
+}
+
+#bilboquet-menu li {
+	list-style-type: none; 
+}
+#bilboquet-menu li {
+	
+	font-size:20px;
+	text-decoration:none;
+}
+
+#bilboquet-menu li a {
+	color:#970000;
+	display:block;
+	padding:4px;
+	text-align:left;
+	text-decoration:none;
+}
+
+#bilboquet-menu li a:hover,#bilboquet-menu li a:focus,#bilboquet-menu li a:active {
+	background:#AF5055;
+	color:#FFFFFF;
+	font-size:20px;
+	text-decoration:none;
+}
+
+.bilboquet-bloc-droit {
+	padding-right:0px;
+	padding-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	color:#970000;
+	float:right;
+	font-size:20px;
+	width:800px;
+	display:inline-block;
+}
+
+.bilboquet-bloc-droit h1 {
+	font-size:35px;
+	font-weight:700;
+	text-align:center;
+	display:block;
+}
+
+.bilboquet-bloc-droit p {
+	font-size: 5px;
+	clear:left;
+}
+
+.photo-premiere-page-gauche {
+	float:left;
+	height:310px;
+}
+.photo-premiere-page-gauche img {
+	vertical-align:bottom;
+}
+.photo-premiere-page-droite {
+	float:left;
+	padding-left:130px;
+	height:310px;
+}
+.photo-premiere-page-droite img {
+	vertical-align:bottom;
+}
+
+.hotel-restaurant-le-bilboquet {
+	color:#970000;
+	font-size:28px;
+	font-weight:700;
+	text-align:center;
+}
+
+.adresse-le-bilboquet {
+	font-size: 22px;
+	font-weight:100;
+	color: #970000;
+	text-align: center;
+	
+}
+
+.e-mail-le-bilboquet {
+	color:#970000;
+	font-size:20px
+}
+
+
+
+.footer {
+	background-color:#AF5055;
+	clear:both;
+	width:100%;
+	color:#FFFFff;
+	font-size:15px;
+	letter-spacing:3px;
+	float:left;
+	text-align:center;
+	width:100%
+}
+
+#thibout-logics {
+	margin-left:0px;
+	text-align:left;
+	padding:0;
+	border:0;
+	font-size:12px;
+	color:#970000;
+}
+
+#thibout-logics a, #thibout-logics a:active, #thibout-logics a:link, #thibout-logics a:visited {
+	text-decoration:underline;
+	color:#970000;
+}
+
+.marge {
+margin-left: 2em;
+}
+
+.menus img {
+  transition: transform .2s;
+}
+
+.menus img:hover {
+  -ms-transform: scale(2.5); /* IE 9 */
+  -webkit-transform: scale(2.5); /* Safari 3-8 */
+  transform: scale(2.5); 
+}
+
+#langues a:hover {
+		background-color:#970000;
+		color:#FFFFFF;
+		text-decoration:none;
+
+}
+
+#langues  a {
+		font-size:30px;
+		color:#970000;
+		text-decoration:none;
+
+}
+
+
