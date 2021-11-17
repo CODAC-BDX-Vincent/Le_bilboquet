@@ -1,236 +1,201 @@
 @charset "utf-8";
 
 body {
-	margin: 0;
+	margin: auto;
 	padding:0;
-	text-align: center; 
-	font-family: 'Roboto Condensed', sans-serif;
-	overflow-y:scroll;
-	width: 1500px;
+	font-family: 'Montserrat', sans-serif;
+	
+	max-width: 1200px;
+	min-height: 100vh;
+	background-color:#F8F8F8;
+
 	
 }
 
-div {
-	margin: 0;
-	padding:0;
+
+
+
+
+#logo-entete{
+	display: flex;
+	gap : 20px
 }
 
-fieldset, img, img a {
+a{
+	color: black; /* blue colors for links too */
+  text-decoration: inherit;
+	cursor: pointer;
+}
+
+a:hover{
+	color:#AF5055
+}
+
+.icons{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	font-size: xx-large;
+	color: #AF5055;
+}
+fieldset, img, img a,a {
 	margin: 0;
 	padding:0;
 	border:0;
+	text-decoration: none;
+}
+header{
+position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: #F8F8F8;
 }
 
-#bilboquet-page {
-	position:relative;
-	clear:both;
-	width:1200px;
-	margin: 0 auto 0 auto;
-	text-align: left; 
-}
 
 #haut-bandeau {
-	height:105px;
-	margin:0;
-	padding:0;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+	border:1px solid #AF5055;
+
+	
+   background-color: #AF5055;
+   color: white;
+   z-index:  2;
 }
 
-#logo-entete {
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:100px;
-	height:105px;
+
+h2{
+	font-size: xx-large;
+	color : #AF5055;
 }
 
-#nom-entete {
-	position:absolute;
-	top:0px;
-	left:100px;
-	width:544px;
-	height:105px;
-}
+.content{
+	display: flex;
+	flex-direction: column;
+	margin-top:180px;
+	gap : 10px;
+	margin-bottom: 90px;
 
-#wifi-logis-entete {
-	position:absolute;
-	top:0px;
-	left:646px;
-	width:450px;
-	text-align:right;
-	height:105px;
-}
-
-.bilboquet-haut-gauche {
-	padding-right:0px;
-	padding-left:0px;
-	padding-top:0px;
-	padding-bottom:0px;
-	margin-left:0px;
-	margin-right:0px;
-	margin-top:0px;
-	margin-bottom:0px;
-	color:#970000;
-	font-size:40px;
 	
 }
 
-.bilboquet-bloc-gauche {
+.menu{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-start;
+    align-items: center;
+	gap:20px;
+	font-size: x-large;
+	justify-content: space-around;
+	position: sticky;
 
-	padding-right:100px;
-	padding-left:0px;
-	padding-top:20px;
-	padding-bottom:0px;
-	margin-left:0px;
-	margin-right:0px;
-	margin-top:0px;
-	margin-bottom:0px;
-	float:left;
-	width:300px;
-	display:inline;
-}
-
-#bilboquet-menu li {
-	list-style-type: none; 
-}
-#bilboquet-menu li {
 	
-	font-size:20px;
-	text-decoration:none;
 }
 
-#bilboquet-menu li a {
-	color:#970000;
-	display:block;
-	padding:4px;
-	text-align:left;
-	text-decoration:none;
+
+
+
+#langues{
+	height: 10%;
 }
 
-#bilboquet-menu li a:hover,#bilboquet-menu li a:focus,#bilboquet-menu li a:active {
-	background:#AF5055;
-	color:#FFFFFF;
-	font-size:20px;
-	text-decoration:none;
+
+
+
+.page{
+	display: flex;
+flex-direction: column;
+    align-items: center;
+	width: 100%;
+	gap:30px;
+	min-height: 100vh;
+	
+
+	
+
+
 }
 
-.bilboquet-bloc-droit {
-	padding-right:0px;
-	padding-left:0px;
-	padding-top:0px;
-	padding-bottom:0px;
-	margin-left:0px;
-	margin-right:0px;
-	margin-top:0px;
-	margin-bottom:0px;
-	color:#970000;
-	float:right;
-	font-size:20px;
-	width:800px;
-	display:inline-block;
+p{
+	line-height: 50%;
 }
 
-.bilboquet-bloc-droit h1 {
-	font-size:35px;
-	font-weight:700;
-	text-align:center;
-	display:block;
-}
 
-.bilboquet-bloc-droit p {
-	font-size: 5px;
-	clear:left;
-}
-
-.photo-premiere-page-gauche {
-	float:left;
-	height:310px;
-}
-.photo-premiere-page-gauche img {
-	vertical-align:bottom;
-}
-.photo-premiere-page-droite {
-	float:left;
-	padding-left:130px;
-	height:310px;
-}
-.photo-premiere-page-droite img {
-	vertical-align:bottom;
-}
-
-.hotel-restaurant-le-bilboquet {
-	color:#970000;
-	font-size:28px;
-	font-weight:700;
-	text-align:center;
-}
-
-.adresse-le-bilboquet {
-	font-size: 22px;
-	font-weight:100;
-	color: #970000;
+.contact{
+	color: #AF5055;
+	font-size: x-large;
 	text-align: center;
+}
+
+.haut{
+	display: flex;
+	    align-items: center;
+		width: 100%;
+		justify-content: space-evenly;
+		border-bottom :1px solid #AF5055;
+		padding-bottom: 20px;
+		
+}
+.marge{
+	font-size:smaller;
+	padding-left: 20px;
+}
+
+.bas{
+	display: flex;
+	width: 100%;
+	    justify-content: space-evenly;
 	
 }
 
-.e-mail-le-bilboquet {
-	color:#970000;
-	font-size:20px
-}
 
-
-
-.footer {
+footer {
 	background-color:#AF5055;
 	clear:both;
-	width:100%;
 	color:#FFFFff;
 	font-size:15px;
 	letter-spacing:3px;
-	float:left;
 	text-align:center;
-	width:100%
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  order: 2;
+	
 }
 
-#thibout-logics {
-	margin-left:0px;
-	text-align:left;
-	padding:0;
-	border:0;
-	font-size:12px;
-	color:#970000;
+
+@media (max-width: 575.98px) { 
+	.menu{
+
+	flex-direction: column;
+	border-bottom: 1px solid #AF5055;
+	}
+	.content{
+
+	margin-top:270px;
+	margin-bottom: 100px;
+	}
+	.haut{
+	flex-direction: column;
+	gap: 20px;
+	}
+	.bas{
+	flex-direction: column;
+	align-items: center;
+	gap:20px;
+	
 }
+		
 
-#thibout-logics a, #thibout-logics a:active, #thibout-logics a:link, #thibout-logics a:visited {
-	text-decoration:underline;
-	color:#970000;
-}
 
-.marge {
-margin-left: 2em;
-}
+ }
 
-.menus img {
-  transition: transform .2s;
-}
 
-.menus img:hover {
-  -ms-transform: scale(2.5); /* IE 9 */
-  -webkit-transform: scale(2.5); /* Safari 3-8 */
-  transform: scale(2.5); 
-}
 
-#langues a:hover {
-		background-color:#970000;
-		color:#FFFFFF;
-		text-decoration:none;
 
-}
-
-#langues  a {
-		font-size:30px;
-		color:#970000;
-		text-decoration:none;
-
-}
 
 
